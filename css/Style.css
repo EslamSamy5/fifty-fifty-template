@@ -1,0 +1,154 @@
+*,html,body{
+	margin:0;
+	padding:0;
+}
+
+
+.container-fluid{
+	margin-inline-start:20px;
+	overflow: hidden;
+	max-width:1310px
+}
+
+.header{
+	background-color:black;
+	color:white;
+	height:700px;
+	width:100%;
+}
+
+.navbar-brand{
+	text-align:center;
+	color:white;
+	margin:50px auto;
+	font-size:30px;
+	font-weight:400;
+}
+.navbar-brand:hover{color:red;}
+
+.header nav ul{width:100%;margin-top:100px}
+
+.header nav ul li{
+	display:inline-block;
+	text-align: center;
+	margin:6px 0;
+width:95%;
+height:100%;
+font-size:20px;
+padding:10px 0;
+}
+
+.first:hover{background-color:#607D8B}
+.seconde:hover{background-color:#009688}
+.third:hover{background-color:#616161}
+.forth:hover{background-color:#795548}
+
+
+/* Start About Section */
+.about{background-color:#607D8B;
+	   text-align:center;width:100%;}
+.about h4{text-align:center;
+	color:white;
+	margin:72px 0 20px 0;
+	font-size:30px;
+	font-weight:400;}
+
+.about img{border-radius:50%;margin-bottom:30px;}
+.about p{text-align: justify;
+margin-inline-start: 30px;
+color:white}
+/* End About Section */
+
+/* Start Work Section */
+.work{
+	background-color:#F1F1F1;
+	height:780px;
+}
+
+.work h4{margin-top:70px}
+.work p:first-of-type{margin-bottom:50px;}
+.work p:last-child{margin-top:50px;}
+/* End Work Section */
+
+/* Start Second Section */
+
+.time {background-color:#3F51B5;color:white;height:780px;}
+.work p:last-of-type{font-weight: 500}
+/* End Second Section */
+
+
+/* Start Third Section */
+.time h4{margin-top:70px}
+.table{color:white;margin-inline-start: 30px;overflow-x:auto;
+max-width:90%;}
+.table thead th{border-bottom:none;
+border-top:none;}
+.back{background-color:white;color:black}
+.table tbody th{font-weight:400}
+.table th{padding: 0.50rem;}
+/* End Third Section */
+
+/* Start Fifth Section */
+.addr{background-color:#616161 ;
+color:white;height:700px;}
+.addr h4{margin:70px 0;}
+.addr p:first-of-type{margin-top:140px;}
+
+/* End Fifth Section */
+
+/* Start Contact Section */
+.contact{background-color:#009688;color:white
+	}
+.contact h4{margin-top:70px}
+.contact p{color:#95D4CE}
+.contact form{background-color:white;color:black;height:68%;}
+.contact form label:first-of-type{margin-top:50px;}
+.contact input{border-top:none;
+	border-left:none;border-right:none;
+	width:95%;border-radius:0.5}
+	.contact button{margin-top: 10px;
+		left: 28px;
+		float:right;
+		margin-inline-end: 20px;
+	margin-bottom: 35px}
+/* End Contact Section */
+
+/* Start Footer Section */
+
+.footer{background-color:gray}
+.footer p{
+    font-size:23px;
+    margin-top:20px;  
+    margin-bottom:70px
+}
+
+.footer object{
+	width:35px;
+    height:35px;
+}
+/* End Footer Section */
+
+
+/* Start Media Section */
+
+@media screen and (max-width:768px){
+	.container-fluid{margin:0;
+	width:100%}
+
+	.work{
+		height:600px;
+	}
+	.time{
+		height:800px;
+	}
+}
+
+
+/* Start Framework Section */
+
+.h4{font-size:30px;
+	font-weight:400;margin-bottom:30px;}
+.h5{font-size:40px !important}
+	.center{text-align:center}
+
+.mar{margin-inline-start: 30px;}
